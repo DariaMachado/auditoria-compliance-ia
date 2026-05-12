@@ -7,9 +7,9 @@ st.title(" Auditor Digital de Contratos")
 st.markdown("### Análise de Conformidade - Lei 14.133/2021")
 # 2. Configuração da API (Sidebar)
 with st.sidebar:
-st.header("Configurações Técnicas")
-api_key = st.text_input("Cole sua Gemini API Key:", type="password")
-st.info("Obtenha uma chave gratuita em: aistudio.google.com")
+  st.header("Configurações Técnicas")
+  api_key = st.text_input("Cole sua Gemini API Key:", type="password")
+  st.info("Obtenha uma chave gratuita em: aistudio.google.com")
 # 3. Upload do Documento
 uploaded_file = st.file_uploader("Arraste o contrato em PDF aqui",
 type="pdf")
